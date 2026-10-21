@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sma"
+version = "0.0.1"
+description = "Skeleton copy for a portfolio (implementation removed)."
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "pyyaml>=6",
+    "python-dotenv>=1",
+    "Pillow>=10",
+    "miniaudio>=1.60",
+    "lameenc>=1.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+tts = ["edge-tts>=6"]   # optional online voice, see README: needs --allow-edge-tts
+
+[tool.setuptools.packages.find]
+include = ["sma*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

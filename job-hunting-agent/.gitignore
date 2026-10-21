@@ -1,0 +1,22 @@
+# secrets
+.env
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# local state and logs (never commit job data or run logs)
+data/
+logs/
+KILL
+
+# editors
+.vscode/settings.json
+.idea/

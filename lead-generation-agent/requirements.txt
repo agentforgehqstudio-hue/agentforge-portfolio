@@ -1,0 +1,9 @@
+httpx
+beautifulsoup4
+gspread
+google-auth
+anthropic
+python-dotenv
+tenacity
+tzdata
+pytest

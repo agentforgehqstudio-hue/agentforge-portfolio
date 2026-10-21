@@ -1,0 +1,4 @@
+"""Skeleton only. Implementation removed in the public copy."""
+
+def parse(html_text, city=..., category=...):
+    raise NotImplementedError('Implementation removed in the public copy.')

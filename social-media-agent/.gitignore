@@ -1,0 +1,46 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+client_secret*.json
+token*.json
+
+# Run logs and approval records
+runs/
+
+# API response cache and generated A1 output
+cache/
+data/
+
+# Phase 5 voice and visuals (audio and images are never committed)
+output/
+*.mp3
+*.wav
+
+# Media
+media/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.srt
+*.vtt
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/

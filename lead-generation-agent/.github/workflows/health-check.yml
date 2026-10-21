@@ -1,0 +1,9 @@
+name: Health check
+# Skeleton only: the real steps, inputs and settings are removed in the public copy.
+on:
+  workflow_dispatch:
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Skeleton workflow. Steps removed in the public copy."
