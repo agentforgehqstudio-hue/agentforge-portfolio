@@ -1,6 +1,6 @@
 # Agent Forge: AI Agent Portfolio
 
-Five AI agents built by **Pelumi, Founder, Agent Forge**. Each folder has its own README that explains what the
+Six AI agents built by **Pelumi, Founder, Agent Forge**. Each folder has its own README that explains what the
 agent does, how it is put together, and the safety rules built into it.
 
 > These are **portfolio copies**. They show each agent's structure (folders, modules, classes and function names).
@@ -13,6 +13,7 @@ agent does, how it is put together, and the safety rules built into it.
 | [Ghostwriting agent](ghostwriting-agent/) | Finds demand, then researches, drafts, checks and packages guides and fiction for approval |
 | [Real estate referral agent](real-estate-referral-agent/) | Reads a pasted listing, runs the numbers, writes a checked deal memo and matches deals to opted-in investors |
 | [Job hunting agent](job-hunting-agent/) | Finds job postings, scores them against a candidate profile and prepares applications |
+| [Quote agent](quote-agent/) | Turns a trades enquiry into a priced estimate from the firm's own price list, gets owner approval, sends it and follows up |
 
 ## What they share
 
